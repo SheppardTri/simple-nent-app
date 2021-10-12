@@ -21,6 +21,10 @@ body.dark a {
   color: rgb(255, 255, 255);
 }
 
+body.dark a:hover {
+  color: rgb(145, 145, 145);
+}
+
 body.dark nav a {
   color: rgb(0, 0, 0);
 }
