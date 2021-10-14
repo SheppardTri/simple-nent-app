@@ -5,7 +5,7 @@ Markdown is a way to easily communicate the intentions of WHAT you want to say, 
 For instance below is the actual code for pulling in the file you're currently reading from:
 
 ```
-    <n-content-markdown src='/pages/markdown.md'></n-content-markdown>
+<n-content-markdown src='/pages/markdown.md'></n-content-markdown>
 ```
 
 That is it! From that simple few lines of text we are able to have all the utility of markdown at our fingertips! For more information on getting started with markdown, click [here](https://commonmark.org/help/tutorial)!
