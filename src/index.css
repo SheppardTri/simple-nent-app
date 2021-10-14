@@ -24,7 +24,7 @@ body.dark a:hover {
 }
 
 body.dark nav a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 body.dark {
@@ -89,12 +89,7 @@ n-view-link {
   display: block;
 }
 
-n-view-link a {
-  color: var(--background-color);
-}
-
 n-view-link a.active {
-  color: var(--background-color);
   font-weight: bold;
 }
 
