@@ -21,7 +21,7 @@ yarn dev
 
 ### 3. Build
 
-Create a directory of static files for your server. The files will all be moved to `/dist`.
+Create a directory of static files for your server, The files will all be moved to `/dist`.
 
 ```bash
 yarn build
