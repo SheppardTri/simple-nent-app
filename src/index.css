@@ -37,6 +37,12 @@ body.dark code {
   background-color: rgb(98, 57, 136);
   width: 700px;
 }
+body.dark h3 a {
+  color: rgb(163, 101, 221);
+}
+body.dark p a {
+  color: rgb(163, 101, 221);
+}
 
 n-app-theme-switch img {
   color: rgb(0, 0, 0);
