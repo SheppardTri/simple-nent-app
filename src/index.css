@@ -146,4 +146,7 @@ footer a {
     display: grid;
     grid-template-columns: 50% 50%;
   }
+  h1 {
+    margin-left: 10px;
+  }
 }
