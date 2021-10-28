@@ -16,7 +16,7 @@
     <meta name="og:description"
       content="test-app" />
     <meta name="og:image"
-      content="/assets/logo512.png" />
+      content="./assets/logo512.png" />
     <meta name="msapplication-tap-highlight"
       content="no" />
     <meta name="apple-mobile-web-app-capable"
@@ -38,7 +38,7 @@
       href="https://unpkg.com" />
     <link rel="icon"
       type="image/svg"
-      href="/favicon.ico" />
+      href="./favicon.ico" />
 
     <link
     href="https://fonts.googleapis.com/css2?family=Blinker:wght@200;400;600;700&display=swap"
@@ -71,7 +71,7 @@
       <header>
         <div class="row">
           <div class="logo">
-            <img src="/assets/logo.png"
+            <img src="./assets/logo.png"
             title="logo"
             width="70"
             class="logo" />
@@ -82,11 +82,11 @@
           </div>
           <n-app-theme-switch class="column column-10 column-offset-50"
             input-id="dark-mode">
-            <img src="/assets/dark-mode.svg"
+            <img src="./assets/dark-mode.svg"
               title="Dark Mode"
               width="30"
               class="show-light" />
-            <img src="/assets/light-mode.svg"
+            <img src="./assets/light-mode.svg"
               title="Light Mode"
               width="30"
               class="show-dark" />
@@ -111,22 +111,22 @@
         </nav>
         <n-view path="/home"
           page-title="Home"
-          content-src="/pages/home.html"></n-view>
+          content-src="./pages/home.html"></n-view>
         <n-view path="/about"
           page-title="About"
-          content-src="/pages/about.html"></n-view>
+          content-src="./pages/about.html"></n-view>
         <n-view path="/markdown"
           page-title="Markdown"
-          content-src="/pages/markdown.html"></n-view>
+          content-src="./pages/markdown.html"></n-view>
         <n-view path="/route-start"
           page-title="Route"
-          content-src="/pages/deep-routes/route-start.html">
+          content-src="./pages/deep-routes/route-start.html">
           <n-view path="/child"
           page-title="Child Route"
-          content-src="/pages/deep-routes/route-child.html">
+          content-src="./pages/deep-routes/route-child.html">
             <n-view path="/deep"
               page-title="Deep Route"
-              content-src="/pages/deep-routes/route-deep.html">
+              content-src="./pages/deep-routes/route-deep.html">
             </n-view>
           </n-view>
         </n-view>
